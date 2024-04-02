@@ -1,13 +1,13 @@
 import React from 'react'
-import Header from './Header'
-import Footer from './Footer'
+import Headers from './Headers'
+import Footerjs from './Footer'
 
 const MainLayout = ({children}) => {
   return (
     <div>
-        <Header />
+        <Headers />
         {children}
-        <Footer />
+        <Footerjs />
     </div>
   )
 }
