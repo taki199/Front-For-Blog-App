@@ -4,7 +4,7 @@ import Hero from '../components/Hero'
 
 const HomePage = () => {
   return <MainLayout>
-    <Hero/ >
+    <Hero />
   </MainLayout>
 }
 
